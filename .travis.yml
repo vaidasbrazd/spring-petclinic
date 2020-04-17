@@ -10,3 +10,4 @@ addons:
         script:
             - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package org.jacoco:jacoco-maven-plugin:report
             - if [ "$JAVA_HOME" = "C:\Program Files\Java\jdk-11.0.6" ]; then mvn sonar:sonar; fi
+            # end of file
