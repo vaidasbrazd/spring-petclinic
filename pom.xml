@@ -182,6 +182,9 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <finalName>spring-petclinic-VB</finalName>
+      </configuration>
         <executions>
           <execution>
             <!-- Spring Boot Actuator displays build-related information
@@ -275,6 +278,7 @@
         </dependencies>
       </plugin>
     </plugins>
+    <finalName>spring-petclinic-VB</finalName>
   </build>
 
   <!-- Apache 2 license -->
